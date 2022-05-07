@@ -3,11 +3,9 @@ public class Main {
 
         int amount = 100;
         int payment = 1100 + amount;
+        int percent = 1;
+
         System.out.println("Баланс: " + payment);
-
-        boolean amountAndpayment  = true;
-
-        int percent = amountAndpayment ? 1 : 0;
 
         int bonus = payment * percent / 100;
 
