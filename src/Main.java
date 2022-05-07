@@ -5,9 +5,9 @@ public class Main {
         int payment = 1100 + amount;
         System.out.println("Баланс: " + payment);
 
-        boolean isRegistered = true;
+        boolean amountAndpayment  = true;
 
-        int percent = isRegistered ? 1 : 0;
+        int percent = amountAndpayment ? 1 : 0;
 
         int bonus = payment * percent / 100;
 
